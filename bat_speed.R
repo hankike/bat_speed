@@ -19,5 +19,6 @@ lm_xwoba_time = lm(formula = xwoba ~ swing_time + avg_swing_speed + avg_swing_le
         data = bat_speed)
 summary(lm_xwoba_time)
 
-# Multiple R^2 without swing time = 0.2485
-# Multiple R^2 with swing time = 0.2416
+# Multiple R^2 without swing time = 0.2416
+# Multiple R^2 with swing time = 0.2485
+# Difference = +0.0069 swing time
